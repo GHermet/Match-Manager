@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/team1_list"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/add_to_team1" >
+    </ListView>
+
+    <ListView
+        android:id="@+id/team2_list"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/add_to_team2" >
+    </ListView>
+
+    <EditText
+        android:id="@+id/playersname_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/checkPlayerslist_button"
+        android:ems="10"
+        android:hint="@string/players_name"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@id/add_to_team1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/team1_list"
+        android:layout_below="@+id/playersname_text"
+        android:hint="@string/add_to_team_1" />
+
+    <Button
+        android:id="@id/add_to_team2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/team1_list"
+        android:layout_alignLeft="@+id/team2_list"
+        android:layout_alignParentRight="true"
+        android:hint="@string/add_to_team_2" />
+
+    <ImageButton
+        android:id="@+id/checkPlayerslist_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/add_to_team2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/playerlist_icon"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout><!-- From: file:/Users/macbook/Documents/workspace/Match%20Manager/res/layout/football_newmatch_players_layout.xml -->

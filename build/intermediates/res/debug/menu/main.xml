@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="@string/inflated_menu_sport">
+
+    <item
+        android:id="@+id/item1"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="About"/>
+
+
+
+</menu>
+<!-- From: file:/Users/macbook/Documents/workspace/Match%20Manager/res/menu/main.xml -->

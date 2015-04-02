@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="add_to_team1" type="id">Add to Team 1</item>
+    <item name="add_to_team2" type="id">Add to Team 2</item>
+    <item name="team1_endgame" type="id">Team1 Endgame</item>
+    <item name="team2_endgame" type="id">Team2 Endgame</item>
+    <item name="score1_endgame" type="id">Score1 Endgame</item>
+    <item name="score2_endgame" type="id">Score2 Endgame</item>
+    <item name="duration_endgame" type="id">Duration Endgame</item>
+    <item name="ok_button" type="id">OK Button</item>
+    <item name="sendSMS_button" type="id">Send SMS Button</item>
+    <item name="phonenumb_text" type="id">Phone Number</item>
+    <item name="phonenumber_textview" type="id">Phone Number TextView</item>
+    <item name="Sport" type="id">Sport</item>
+    <item name="cancel_button" type="id">Cancel_button</item>
+    <item name="name_entry" type="id">Contact Name</item>
+    <item name="number_entry" type="id">Contact Phone Number</item>
+    <item name="check_settings" type="id">check_settings_Button</item>
+    <item name="Match_listview" type="id">match_listview</item>
+</resources>

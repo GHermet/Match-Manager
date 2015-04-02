@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Match Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="choose_a_sport">Choose a Sport</string>
+    <string name="inflated_menu_sport">Inflated Menu Sport</string>
+
+    <string-array name="football_menuArray">
+        <item >New Match</item>
+        <item>Match Grid</item>
+
+    </string-array>
+
+    <string-array name="Football_SettingsArray">
+    <item>Friendly Match</item>
+    <item>Championship</item>
+    <item>Cup</item>
+
+</string-array>
+    <string-array name= "PreviousMatches_grid">
+        
+        <item>OM-PSG</item>
+        
+        
+    </string-array>
+        
+        <string name="team_1">Team 1</string>
+        
+        <string name="team_2">Team 2</string>
+        
+        <string name="_">-</string>
+        
+        <string name="number_of_players">Number of Players</string>
+        
+        <string name="OK">OK</string>
+        
+        <string name="duration">Duration</string>
+        
+        <string name="half_time">Half Time</string>
+        
+        <string name="chronometer">Chronometer</string>
+        
+        <string name="next">Next</string>
+        
+        <string name="player_name">Player Name</string>
+        
+        <string name="add_to_team1">Add to Team1</string>
+        
+        <string name="add_to_team_1">Add to Team 1</string>
+        
+        <string name="add_to_team_2">Add to Team 2</string>
+        
+        <string name="referee_">"Referee "</string>
+        
+        <string name="referee">Referee</string>
+        
+        <string name="player_apos_s_name">Player\'s name&amp;apos;s Name</string>
+        
+        <string name="player_apos_name">Player\'s name</string>
+        
+        <string name="players_name">Player\'s name</string>
+        
+        <string name="button">Button</string>
+        
+        <string name="textview">TextView</string>
+        
+        <string name="_00_00">00:00</string>
+        
+        <string name="end_game">End Game</string>
+        
+        <string name="final_score">Final Score</string>
+    <string name="zero">0</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="cancel">Cancel</string>
+</resources>

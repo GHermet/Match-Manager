@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill" >
+    <EditText
+        android:id="@+id/Team1_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+
+        android:ems="10"
+        android:hint="@string/team_1"
+        android:inputType="textPersonName"
+        android:capitalize="words"/>
+
+    <SeekBar
+        android:id="@+id/Team1_seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Team1_text"
+        android:max="15" />
+
+    <SeekBar
+        android:id="@+id/Team2_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="15"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/Team2_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/team_2"
+        android:inputType="textPersonName"
+        android:capitalize="words"
+        android:layout_above="@+id/Team2_seekbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+                <TextView
+        android:id="@+id/team2_nbplayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                    android:hint="@string/number_of_players"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_below="@+id/Team1_seekbar"
+
+                    android:layout_marginRight="10dp"
+                    android:layout_alignEnd="@+id/next_button" />
+
+    <TextView
+        android:id="@+id/team1_nbplayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/number_of_players"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+
+        android:layout_marginRight="10dp"
+
+        android:layout_alignEnd="@+id/next_button"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/OK"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/referee_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/referee"
+        android:inputType="textPersonName"
+        android:autoText="false"
+        android:capitalize="words"
+        android:layout_above="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="40dp">
+
+
+</EditText>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner"
+                    android:spinnerMode="dropdown"
+                    android:entries="@array/Football_SettingsArray"
+                    android:layout_above="@+id/next_button"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>

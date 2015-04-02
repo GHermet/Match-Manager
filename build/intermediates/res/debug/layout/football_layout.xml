@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/football_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:entries="@array/football_menuArray" >
+    </ListView>
+
+</RelativeLayout>
+<!-- From: file:/Users/macbook/Documents/workspace/Match%20Manager/res/layout/football_layout.xml -->
